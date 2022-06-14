@@ -1,0 +1,355 @@
+
+  .heading{
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: beige;
+  }
+  .headsub{
+    color:#F10086;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+
+.widget-container {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .07);
+    margin-bottom: 30px
+}
+
+.widget-container .widget {
+    margin-bottom: 0
+}
+
+.widget-container>.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important
+}
+
+.widget-container>.row>[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.widget {
+    -webkit-border-radius: 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background-color:#F10086;
+    font-weight: 300;
+    margin-bottom: 30px;
+    vertical-align: middle;
+    max-height: 10%;
+    border-radius: 3%;
+}
+
+.widget .row {
+    font-size: 0;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.widget .row:before {
+    display: none
+}
+
+.widget .row .col {
+    font-size: 11px;
+    
+}
+
+.widget .row .col:first-child {
+    -webkit-border-radius: 2px 0 0 2px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 2px 0 0 2px;
+    -moz-background-clip: padding;
+    border-radius: 2px 0 0 2px;
+    background-clip: padding-box
+}
+
+.widget .row .col:last-child {
+    -webkit-border-radius: 0 2px 2px 0;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 2px 2px 0;
+    -moz-background-clip: padding;
+    border-radius: 0 2px 2px 0;
+    background-clip: padding-box
+}
+
+.widget .col {
+    display: inline-block;
+    vertical-align: top
+}
+
+.widget [class*=col-] {
+    font-size: 11px;
+    margin: 0;
+    padding: 0
+}
+
+.widget .widget-stat {
+    position: absolute
+}
+
+.widget .widget-stat.top {
+    top: 7px
+}
+
+.widget .widget-stat.right {
+    right: 10px
+}
+
+.widget .widget-stat.left {
+    left: 10px
+}
+
+.widget .widget-stat.bottom {
+    bottom: 7px
+}
+
+.widget .widget-stat strong,
+.widget .widget-stat span,
+.widget .widget-stat i,
+.widget .widget-stat div {
+    vertical-align: top
+}
+
+.widget .progress {
+    margin-bottom: 0
+}
+
+.profile-card .card-header .header-avatar {
+    text-align: center;
+    
+}
+
+
+.profile-card .card-header .header-name {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center
+}
+
+.profile-card .card-body {
+    -webkit-transform: skew(0deg, -10deg);
+    -moz-transform: skew(0deg, -10deg);
+    -o-transform: skew(0deg, -10deg);
+    -ms-transform: skew(0deg, -10deg);
+    transform: skew(0deg, -10deg);
+    margin-top: 30px;
+    min-height: 50px;
+    padding: 50px 20px
+}
+
+.profile-card .card-body .body-description {
+    -webkit-transform: skew(0deg, 10deg);
+    -moz-transform: skew(0deg, 10deg);
+    -o-transform: skew(0deg, 10deg);
+    -ms-transform: skew(0deg, 10deg);
+    transform: skew(0deg, 10deg);
+    color: #fff;
+    font-size: 16px;
+/*     font-family: cursive; */
+    text-align: justify;
+}
+
+.profile-card .card-footer {
+    margin-top: 50px;
+    padding: 10px 0 20px
+}
+
+.profile-card .card-footer .footer-social {
+    text-align: center
+}
+
+.profile-card .card-footer .footer-social .row {
+    margin: 0
+}
+
+.profile-card .card-footer .footer-social i {
+    color: #292929;
+    font-size: 20px
+}
+
+.bg-primary {
+    background-color: #5800FF !important;
+    color: #fff !important
+}
+
+.bg-success {
+  background-color: #000877 !important;
+    color: #fff !important
+}
+
+.bg-info {
+  background-color:  #1A1A40 !important;
+    color: #fff !important
+}
+.serve{
+  border: 5px solid white;
+  border-radius: 4%;
+}
+.bg-warning {
+    background-color: #1A1A40 !important;
+    color: #fff !important
+}
+
+
+
+.bg-inverse {
+    background-color: #fefefe !important;
+    color: #292929 !important
+}
+
+.bg-white {
+    background-color: #fff !important;
+    color: #292929 !important
+}
+
+.bg-transparent {
+    background-color: transparent !important
+}
+
+.bg-body {
+    background-color: #f1f3f2 !important
+}
+
+.bg-highlight {
+    background-color: #ff8
+}
+
+.bg-default-darker {
+    background-color: #212121
+}
+.imgclients{
+  width: 80%;
+}
+.rated {
+  color: red;
+}
+.remarks{
+  width: 70%;
+  align-items: center;
+  margin-left: 14%;
+  color: #F10086;
+  font-size: 50px;
+}
+#spin {
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50%;
+
+}
+#spin:after {
+  content:"YAHYA LOGICS";
+  animation: spin 10s linear infinite;
+}
+@keyframes spin {
+  0% { content:"Yahya Logics is name of excellence and deliver projects to their customers on time. -Shiraz Ali";}
+  50% { content: "Yahya Bhai provides projects delivery on best reasonable price and with quality work -Azher Mehmood";}
+  90% { content: "Yahya is hidden graphic designer and motivated coder as well , he gives his best -Extoretech";}
+}
+.jscss{
+    padding-left: 5%;
+}
+.jselector{
+    border-radius: 30%;
+}
+.contactusform { max-width:400px; margin:50px auto;color : black; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 10px;
+  background-color: white;
+  border:2px solid orange;
+  transition: all 0.3s;
+
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #ff00ea; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+
+
+.footer{
+    background: #3a3e42;
+    color:white;
+    
+
+    
+    
+  }
+  li{
+      list-style: none;
+  }
+.placetxt{
+color : black;
+}
+.Get-Started{
+    width: 400px !important;
+    background-color:orange !important;
+    transition: transform .5s !important;
+}
+.Get-Started:hover{
+    background-color:orange !important;
+    
+    transform: scale(1.1) !important;
+    
+    
+     
+    
+     
+    }
+
+.nav-link {
+    color: White !important;
+    font-weight: 900 !important;
+    }
+.color-me-btnn{
+    border-color: white !important;
+    border-style:solid;
+    border-width: 3px !important;
+    border-radius: 10px !important;
+    color: white !important;
+    font-size:large !important;
+    font-weight: 600 !important;
+}
+
+
+.desig{
+    display:block;
+    margin-left: 30%;
+}
+.newclass{
+   padding-top: -50%;
+}
+
+.newclassarea{
+    color: black;
+}
+
+
+
